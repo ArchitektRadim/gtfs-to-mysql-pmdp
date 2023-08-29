@@ -45,8 +45,8 @@ CREATE TABLE `routes` (
   route_short_name VARCHAR(50),
   route_long_name VARCHAR(255),
   route_type INT(2),
-  dir_1_from VARCHAR(50),
-  dir_1_to VARCHAR(50),
+  dir_1 VARCHAR(50),
+  dir_2 VARCHAR(50),
   KEY `route_type` (route_type)
 );
 
