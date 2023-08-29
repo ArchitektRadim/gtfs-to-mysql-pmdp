@@ -105,7 +105,7 @@ CREATE TABLE `trips` (
   wheelchair_accessible INT(11),
   KEY `route_id` (route_id),
   KEY `service_id` (service_id),
-  KEY `direction_id` (direction_id),
+  KEY `direction_id` (direction_id)
 );
 
 LOAD DATA LOCAL INFILE 'agency.txt' INTO TABLE agency FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' IGNORE 1 LINES;
